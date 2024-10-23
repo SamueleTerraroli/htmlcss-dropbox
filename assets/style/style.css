@@ -118,6 +118,20 @@ header p{
 }
 .card.main.row .button-main{
   align-self: center;
+  margin-bottom: 40px;
+}
+
+.buy{
+  color: #0061ff;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.card p .underline{
+  padding: 40px 0;
+  display: inline-block;
+  border-bottom: 1px solid gray;
+  margin-bottom: 50px;
 }
 
 /* CONTAINER */
@@ -191,5 +205,8 @@ header .jumbo .container-jumbo .row .col-img{
 /* HEADER */
 /* MAIN */
 main .col{
-  width: calc(100%/3);
+  width: 30%
+}
+main .plan .container-main .table.row{
+  justify-content: space-between;
 }
