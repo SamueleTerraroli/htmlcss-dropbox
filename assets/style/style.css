@@ -19,11 +19,25 @@ body {
 img{
   max-width: 100%;
 }
+h1{
+  font-size: 5rem;
+  font-weight: bold;
+}
+h4{
+  padding: 10px 0;
+  text-align: center;
+  margin: 0;
+}
+h3{
+  padding: 30PX 0;
+  font-size: 1.8rem;
+}
 nav{
   width: 100%;
 }
 
 a{
+  text-decoration: none;
   color: black;
 }
 
@@ -40,6 +54,9 @@ ol li a{
   vertical-align: middle;
   padding: 0 20px;
 }
+header p{
+  margin: 35px 0;
+}
 
 /* UTILITY */
 .row{
@@ -49,6 +66,20 @@ ol li a{
 .vertical-mid{
   vertical-align: middle;
 }
+.bold{
+  font-weight: 600;
+}
+.thin{
+  font-weight: 200;
+  color: gray;
+}
+.margin-50{
+  margin-bottom: 50px;
+}
+
+.align-center{
+  align-self: center;
+}
 
 /* BUTTON */
 .button {
@@ -56,6 +87,37 @@ ol li a{
   color: white;
   background-color: #0061ff ;
   padding: 10px 15px ;
+}
+.button-main {
+  display: inline-block;
+  color: white;
+  background-color: #0061ff ;
+  padding: 10px 20px ;
+}
+
+/* CARD */
+.card{
+  width: 100%;
+  padding: 0 30px;
+  border: 1px solid grey;
+}
+.card.main ol{
+  display: block;
+  margin-bottom: 50px;
+}
+.card.main ol li{
+  display: block;
+  padding: 15px 0;
+}
+.card.title.row{
+  justify-content: center;
+}
+
+.card.main.row{
+  flex-direction: column;
+}
+.card.main.row .button-main{
+  align-self: center;
 }
 
 /* CONTAINER */
@@ -69,12 +131,25 @@ ol li a{
   
 } 
 
+.container-jumbo{
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.container-main{
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
 /* HEADER */
 
 header .top{
   background-color: white;
   height: 80px;
-  vertical-align: middle;
+  vertical-align: middle;            
 }
 .container-head.row{
   justify-content: space-between;
@@ -83,4 +158,38 @@ header .top{
 .container-head.row .row{
   justify-content:flex-end
 
+}
+header .jumbo .container-jumbo .row .col h1{
+  width: 100%;
+  margin-top: 80px;
+}
+
+header .jumbo .container-jumbo .row .col-text{
+  width: 30%;
+  
+}
+header .jumbo .container-jumbo .row .col-img{
+  width: 70%;
+
+} 
+.jumbo{
+  background-color: #b4d0e7 ;
+}
+.jumbo p{
+  margin-top: 50px;
+}
+
+.arrow{
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.col-img{
+  position: relative;
+  top: 60px;
+}
+/* HEADER */
+/* MAIN */
+main .col{
+  width: calc(100%/3);
 }
