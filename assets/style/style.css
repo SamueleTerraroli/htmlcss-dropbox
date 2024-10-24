@@ -11,6 +11,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -103,6 +106,11 @@ ul li a{
 }
 .list-icon.share::before{
   content: '\f1e0';
+
+}
+.list-icon.vcheck::before{
+  content: '\f00c';
+  color: #0061ff
 
 }
 
@@ -322,5 +330,16 @@ main .plan .container-main .table-bottom.row .col{
 .operations .row{
   margin-bottom: 30px;
 }
+
+/* end-section */
+.end .container-main .col{
+  width: 60%;
+}
+.end a{
+  color: #0061ff;
+  text-decoration: underline;
+}
+
+
 
 
