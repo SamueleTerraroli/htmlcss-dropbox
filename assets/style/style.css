@@ -52,20 +52,28 @@ header p{
 }
 
 /* ol-li */
-ol{
+ul{
   display: inline-block;
 }
-ol li{
+ul li{
   display: inline-block;
   margin-right: 10px;
 
 }
-ol li a{
+ul li a{
   display: inline-block;
   text-decoration: none;
   vertical-align: middle;
   padding: 0 20px;
 }
+
+/* list-icon */
+.list-icon::before{
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  margin-right: 5px;
+}
+
 .list-icon.check::before{
   content: '\f111';
   font-size: 0.6rem ;
@@ -79,12 +87,23 @@ ol li a{
   color:white;
   border: 2px solid grey;
   border-radius: 50%;
+}
+.list-icon.user::before{
+  content: '\f007';
+}
+.list-icon.team::before{
+  content: '\f0c0';
+}
+.list-icon.enterprise::before{
+  content: '\f275';
+}
+.list-icon.folder::before{
+  content: '\f07b';
 
 }
-.list-icon::before{
-  font-family: 'Font Awesome 6 Free';
-  font-weight: 900;
-  margin-right: 5px;
+.list-icon.share::before{
+  content: '\f1e0';
+
 }
 
 /* UTILITY */
@@ -135,11 +154,11 @@ ol li a{
   border: 1px solid grey;
   border-top: none;
 }
-.card.main ol{
+.card.main ul{
   display: block;
   margin-bottom: 50px;
 }
-.card.main ol li{
+.card.main ul li{
   display: block;
   padding: 15px 0;
 }
@@ -149,6 +168,8 @@ ol li a{
 
 .card.main.row{
   flex-direction: column;
+  justify-content: stretch;
+  height: 92%;
 }
 .card.main.row .button-main{
   align-self: center;
