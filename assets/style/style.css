@@ -274,7 +274,12 @@ main .plan .container-main .table-bottom.row .col{
   width: 40%;
 }
 
-.partner .container-main .row {
+.partner .container-main .row .col-text{
+  padding: 100px 50px;
+
+}
+.partner .container-main .row .col-text p {
+  margin-bottom: 30px;
 
 }
 
