@@ -146,6 +146,15 @@ header p{
   margin-bottom: 50px;
 }
 
+.operations .card{
+  border: none;
+
+}
+.operations .card{
+  flex-direction: column;
+
+}
+
 /* CONTAINER */
 
 .container-head {
@@ -281,6 +290,11 @@ main .plan .container-main .table-bottom.row .col{
 .partner .container-main .row .col-text p {
   margin-bottom: 30px;
 
+}
+
+/* operations-section */
+.operations h3{
+  font-size: 1.5rem;
 }
 
 
