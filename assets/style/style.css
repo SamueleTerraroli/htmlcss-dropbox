@@ -181,7 +181,6 @@ ol li a{
 
 .container-head {
   max-width: 1700px;
-  width: 98%;
   height: 100%;
 
   margin: 0 auto;
@@ -191,14 +190,11 @@ ol li a{
 .container-jumbo{
   max-width: 1200px;
   margin: 0 auto;
-  width: 80%;
 }
 
 .container-main{
   max-width: 1000px;
-  width: 80%;
   margin: 0 auto;
-
 }
 
 /* HEADER */
