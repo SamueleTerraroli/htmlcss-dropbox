@@ -340,6 +340,46 @@ main .plan .container-main .table-bottom.row .col{
   text-decoration: underline;
 }
 
+/* FOOTER */
+
+footer{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 50px;
+}
+
+footer .footer-top .row{
+  justify-content: space-between;
+  margin: 50px 0;
+}
+footer nav ul {
+  display: flex;
+  flex-direction: column;
+}
+footer ul li a{
+  color: white;
+  padding: 5px 0;
+  padding-right: 5px;
+}
+footer .col{
+  margin: 50px 0;
+}
+.list-icon.language{
+  padding: 50px 0;
+  border-top: 1px solid white;
+  margin-top: 50px;
+  color: white;
+}
+
+.list-icon.language::before{
+  content: '\f57d';
+}
+.fa-solid.fa-sort-up{
+  position: relative;
+  top: 5px;
+}
+
+
 
 
 
