@@ -15,6 +15,9 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+ main section{
+  margin: 150px 0;
+}
 
 img{
   max-width: 100%;
@@ -24,7 +27,6 @@ h1{
   font-weight: bold;
 }
 h2{
-  margin-top: 100px;
   font-size: 2.5rem;
   margin-bottom: 50px;
 }
@@ -93,13 +95,17 @@ header p{
   background-color: #0061ff ;
   padding: 10px 15px ;
 }
-.button-main {
-  display: inline-block;
-  color: white;
-  background-color: #0061ff ;
+.button.main {
   padding: 10px 20px ;
+  align-self: center;
+  margin-bottom: 40px;
 }
+.button.black{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 
+}
 /* CARD */
 .card{
   width: 100%;
@@ -210,6 +216,7 @@ header .jumbo .container-jumbo .row .col-img{
 }
 /* HEADER */
 /* MAIN */
+/* table-section */
 
 .fa-solid.fa-circle.check{
   border: 5px solid #0061ff;
@@ -253,14 +260,22 @@ main .plan .container-main .table-bottom.row .col{
   width: 40%;
   position: relative;
 }
-.col.office .button-main{
+.col.office .button.main{
   position: absolute;
   top: 20px;
   right: 20px;
 }
+/* partener-section */
 
-.row.time ol li:before{
-  content:"<i class="fa-solid fa-circle"></i>" ;
+.col-img{
+  width: 60%;
+}
+.col-text{
+  width: 40%;
+}
+
+.partner .container-main .row {
+
 }
 
 
