@@ -71,6 +71,14 @@ ul li a{
 }
 
 /* list-icon */
+main ul{
+  margin-left: 20px;
+}
+
+li.list-icon{
+  text-indent: -1.4rem;
+  padding-left: 20px;
+}
 .list-icon::before{
   font-family: 'Font Awesome 6 Free';
   font-weight: 900;
